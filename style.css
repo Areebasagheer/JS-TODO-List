@@ -1,0 +1,124 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("img/star.webp");
+    background-size: cover;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app {
+    width: 100%;
+    max-width: 540px;
+    background: rgb(252, 244, 244);
+    margin: 100px auto 20px;
+    padding: 50px 30px 70px;
+    border-radius: 10px;
+}
+.app h1 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    font-size: 30px;
+}
+.app h1 img {
+    width: 40px;
+    margin-left: 10px;
+}
+.input-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #d1d5dd;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 13px;
+    font-size: 16px;
+}
+button {
+    border: 1px solid rgb(240, 237, 237);
+    color: #ffffff;
+    padding: 16px 35px;
+    background-color: rgb(2, 93, 105);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+ul {
+    width: 100%;
+    min-width: 400px;
+}
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 19px;
+    padding: 12px 8px;
+    position: relative;
+    background-color: #ece2e2;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+}
+ul li .btn-con {
+    display: flex;
+    gap: 10px;
+}
+ul li .edit-btn,
+ul li .delete-btn {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+ul li .edit-btn {
+    background-color: #154933;
+    color: #d5d7da;
+}
+ul li .edit-btn:hover {
+    background-color: #2ba03f;
+    color: #ffffff;
+}
+ul li .delete-btn {
+    background-color: #a09b9b;
+    color: #000;
+}
+ul li .delete-btn:hover {
+    background-color: rgb(190, 10, 10); 
+    color: #ffffff;
+}
+
+
+
+
+
